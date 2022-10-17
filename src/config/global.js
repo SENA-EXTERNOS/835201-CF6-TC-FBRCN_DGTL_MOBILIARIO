@@ -44,7 +44,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: '      Archivos digitales CAM',
+            titulo: 'Archivos digitales CAM',
             hash: 't_1_2',
           },
           {
