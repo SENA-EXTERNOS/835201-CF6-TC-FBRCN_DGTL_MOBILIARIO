@@ -296,7 +296,7 @@
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.color-ajuste
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-1.png", alt="alt")
           .crd_hover_txt--body
@@ -305,7 +305,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.color-ajuste
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-2.png", alt="alt")
           .crd_hover_txt--body
@@ -314,7 +314,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.color-ajuste
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-3.png", alt="alt")
           .crd_hover_txt--body
@@ -323,7 +323,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.color-ajuste
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-4.png", alt="alt")
           .crd_hover_txt--body
@@ -332,7 +332,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
+          .crd_hover_txt--img.color-ajuste
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-5.png", alt="alt")
           .crd_hover_txt--body
@@ -370,10 +370,6 @@
                   a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_01.pdf')" target="_blank" type="application/pdf")
                     span Descargar
                     i.fas.fa-file-download
-
-
-
-
 
 </template>
 
