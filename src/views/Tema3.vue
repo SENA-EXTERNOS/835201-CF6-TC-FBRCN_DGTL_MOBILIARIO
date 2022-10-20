@@ -149,19 +149,6 @@
 
     h5.mb-5 Recuerde  realizar la actividad de aprendizaje y ver los otros recursos complementarios disponibles en el menú principal, estos le ayudarán a ampliar sus conocimientos.
 
-
-    .tarjeta.color-gris.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema1/img-9.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.text-small Resolucion-1016-de-1989 
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
 </template>
 
 <script>
