@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Programación CNC en CAM**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/835201-CF6-TC-FBRCCN_DGTL_MOBILIARIO/](hhttps://sena-externos.github.io/835201-CF6-TC-FBRCCN_DGTL_MOBILIARIO/)
 
 #
 

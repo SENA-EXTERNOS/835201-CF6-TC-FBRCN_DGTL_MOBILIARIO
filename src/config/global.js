@@ -2,16 +2,16 @@ export default {
   global: {
     componenteFormativo: 'Programación CNC en CAM ',
     descripcionCurso: `El presente contenido fundamenta la fabricación asistida por computador basado en el diseño de un modelo CAD, las máquinas de control numérico computarizado CNC y su programación comprobada en el simulador.`,
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/img-prin.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/decorativo-2.png'),
       },
     ],
   },
@@ -60,7 +60,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Selección y configuración del mecanizado',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -98,9 +98,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
+            numero: '3.2',
             titulo: 'Selección de máquinas CSimulación del mecanizado CNC ',
-            hash: 't_3_1',
+            hash: 't_3_2',
           },
         ],
       },
@@ -147,32 +147,108 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Materiales',
+      referencia: `De máquinas y herramientas (26 de abril de 2015). Materiales según la norma ISO. Recuperado el 26 de septiembre de 2022.`,
+      tipo: 'Articulo',
+      link: `https://www.demaquinasyherramientas.com/mecanizado/materiales-segun-la-norma-iso`,
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'CNC',
+      referencia: `Hernández, J. (2020). Curso básico de CNC. Recuperado el 26 de septiembre de 2022.`,
+      tipo: 'Presentación',
+      link: 'https://slideplayer.es/slide/17991266/',
+    },
+    {
+      tema: 'CAD/CAM',
+      referencia: `Perez Camps. (s.f.). Qué es CAD/CAM. [Web log post]. Blogspot.`,
+      tipo: 'Artículo',
+      link: `https://perezcamps.com/es/que-es-cam-cad/`,
+    },
+    {
+      tema: 'PLM',
+      referencia: `Siemens. (2022). Fabricación asistida por ordenador (CAM). Recuperado el 26 de septiembre de 2022. `,
+      tipo: 'Artículo',
+      link: `https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139`,
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Buril',
+      significado: 'herramienta de corte con la que trabaja un torno',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'CAD',
+      significado: `del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador`,
+    },
+    {
+      termino: 'CNC',
+      significado: `control numérico computarizado`,
+    },
+    {
+      termino: 'Fresa',
+      significado: `herramienta de corte con la que trabaja una fresadora o un centro de mecanizado`,
+    },
+    {
+      termino: 'Husillo',
+      significado: `parte de la máquina herramienta que gira y sostiene accesorios para fijar herramientas o materiales`,
+    },
+    {
+      termino: 'Maquina NC',
+      significado: `se refiere a una máquina con control numérico`,
+    },
+    {
+      termino: 'Moleteado',
+      significado: `operación en la que se graba por medio de la presión, un patrón sobre la superficie de un material`,
+    },
+    {
+      termino: 'Plasma',
+      significado: `gas caliente que permite el flujo de energía eléctrica para hacer un corte a un metal`,
+    },
+    {
+      termino: 'PLM',
+      significado: `del inglés Product Life Cycle, o gestión del ciclo de vida del producto`,
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: '3DCadPortal (2022). PowerMill.',
+      link: 'https://www.3dcadportal.com/delcam-powermill.html',
+    },
+    {
+      referencia: '3DCadPortal (2022).',
+      link: 'https://www.3dcadportal.com/rhinocam.html',
+    },
+    {
+      referencia: '3DCadPortal (2022). Solidcam. ',
+      link: `https://www.3dcadportal.com/solidcam.html#:~:text=Solidcam%20es%20un%20software%20para,sobre%20SolidWorks%20y%20Autodesk%20Inventor.`,
+    },
+    {
+      referencia: `Autycom (2020). ¿Qué es el control numérico computarizado o CNC? `,
+      link: `https://www.autycom.com/que-es-el-control-numerico-computarizado-o-cnc/`,
+    },
+    {
+      referencia: `Carolo, Lucas (2022). Los mejores simuladores CNC de 2022 (online y offline).`,
+      link: 'https://all3dp.com/es/2/simulador-cnc-online-gratis/',
+    },
+    {
+      referencia: `Crespo, Mauricio (2016) BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos. `,
+      link: `https://www.interempresas.net/FeriaVirtual/Catalogos_y_documentos/199030/BobCAD-CAM-V29---MILL-5-PRO.-Mecanizado-de-5-Ejes-Simultaneos.pdf`,
+    },
+    {
+      referencia: 'Filext (2022). Abrir un archivo CAM.',
+      link: 'https://filext.com/es/extension-de-archivo/CAM',
+    },
+    {
+      referencia: 'Hernandez, Javier (2020). Curso básico de CNC. ',
+      link: 'https://player.slideplayer.es/109/17991266/slides/slide_8.jpg',
+    },
+    {
+      referencia: `Inoxform.au (2022). Descubre lo diferentes tipos de máquinas CNC.`,
+      link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
+    },
+    {
+      referencia: 'Plm.automation.siemens.com/ (2022). Que es el CAM?.',
+      link: `https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139`,
     },
   ],
   creditos: {

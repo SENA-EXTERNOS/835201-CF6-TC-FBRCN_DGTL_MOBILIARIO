@@ -13,7 +13,7 @@
         .tarjeta.crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajuste
             figure
-              img(src="@/assets/curso/temas/tema3/img-1.png", alt="alt")
+              img.img-alto(src="@/assets/curso/temas/tema3/img-1.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Proceso de programación
             p.mb-0 En la programación con la ayuda de un software de fabricación asistida por computador CAM, se introducen todas las instrucciones en un lenguaje que reconozcan la máquinas CNC, para que ejecuten las operaciones, en el orden indicado, con las herramientas adecuadas y con los parámetros definidos. 
@@ -22,7 +22,7 @@
         .tarjeta.crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajuste
             figure
-              img(src="@/assets/curso/temas/tema3/img-2.png")
+              img.img-alto(src="@/assets/curso/temas/tema3/img-2.png")
           .crd_hover_txt--body
             h4.mb-3 Proceso de simulación
             p.mb-0 Las Representación gráfica en un monitor de todo el proceso de mecanizado que se ha programado en CAM, desde el montaje del material, mostrando las herramientas seleccionadas y sus cambios, las trayectorias que trazarán, su profundidad y la forma que tomará el material a medida que el mecanizado avanza; también podemos apreciar los momentos en que las funciones misceláneas sean ejecutadas, por ejemplo, cuándo se prende o se apaga el refrigerante. 
@@ -149,6 +149,18 @@
 
     h5.mb-5 Recuerde  realizar la actividad de aprendizaje y ver los otros recursos complementarios disponibles en el menú principal, estos le ayudarán a ampliar sus conocimientos.
 
+
+    .tarjeta.color-gris.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema1/img-9.png")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.text-small Resolucion-1016-de-1989 
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 </template>
 

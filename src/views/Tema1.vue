@@ -143,7 +143,7 @@
 
     h4.mb-5 Las fases de trabajo son las siguientes:
 
-    TabsC.color-primario.mb-5
+    TabsC.color-acento-botones.mb-5
       .py-3.py-md-4(titulo="Fase de diseño")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -257,7 +257,7 @@
       .bloque-texto-f__autor.mb-3
         em El Control Numérico Computarizado, también llamado CNC, es todo aquel dispositivo que posee la capacidad de controlar la posición y velocidad de los motores que accionan los ejes de la máquina para realizar movimientos que no se pueden lograr manualmente como círculos, líneas diagonales y figuras complejas tridimensionales.
 
-    h3 .mb-5 Maquinas CNC
+    h3.mb-5 Maquinas CNC
 
     p Las principales máquinas que son controladas por el computador o máquinas de control numérico NC, son las de mecanizado como el torno y la fresadora, tal como se mencionó anteriormente; el funcionamiento básico es el mismo de las máquinas convencionales, solo que traen servomotores para controlar el desempeño de las herramientas de corte.
 
@@ -295,8 +295,8 @@
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img.color-ajuste
+        .crd_hover_txt(data-aos="flip-left").mb-4
+          .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-1.png", alt="alt")
           .crd_hover_txt--body
@@ -305,7 +305,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img.color-ajuste
+          .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-2.png", alt="alt")
           .crd_hover_txt--body
@@ -314,7 +314,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img.color-ajuste
+          .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-3.png", alt="alt")
           .crd_hover_txt--body
@@ -323,7 +323,7 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img.color-ajuste
+          .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-4.png", alt="alt")
           .crd_hover_txt--body
@@ -332,44 +332,45 @@
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img.color-ajuste
+          .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-5.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Mantenimiento de máquinas
             p.mb-0 Es imprescindible revisar los niveles de aceite y lubricación; asimismo, estar atento a partes defectuosa, entre otros.  
 
-    .tarjeta.color-fondot.p-4.p-md-5.mb-5
+    .tarjeta.color-fondot.p-md-5
       .row.justify-content-around
 
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+        .col-5.col-sm-6.col-md-4.mb-4.mb-md-0
           img(src='@/assets/curso/temas/tema1/img-6.png')
 
-        .col-md.col-lg-6
+        .col-lg-7
           .titulo-segundo.color-acento-contenido.mb-5
             h3.mt-5 1.3 Control Numérico Computarizado CNC
           p.mb-5 Para ampliar la información de la normativa para el mecanizado, se sugiere revisar el material complementario  disponible en este recurso educativo. 
-          .row
-            .col-lg-6
-              .row
-                .col-5
-                  figure
-                    img.img-final.mb-3(src="@/assets/curso/temas/tema1/img-8.png", alt="alt")
-                .col-7
-                  p Resolucion-1016-de-1989
-                  a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_01.pdf')" target="_blank" type="application/pdf")
-                    span Descargar
-                    i.fas.fa-file-download
-            .col-lg-6
-              .row
-                .col-5
-                  figure
-                    img.img-final(src="@/assets/curso/temas/tema1/img-9.png", alt="alt")
-                .col-7
-                  p.mb-5 Ley-1562-de-2012
-                  a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Anexo_01.pdf')" target="_blank" type="application/pdf")
-                    span Descargar
-                    i.fas.fa-file-download
+          .tarjeta.opacidad.p-3.mb-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-6.col-lg-2
+                img(src="@/assets/curso/temas/tema1/img-9.png")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Resolucion-1016-de-1989 
+                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
+          .tarjeta.opacidad.p-3.mb-5
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-6.col-lg-2
+                img(src="@/assets/curso/temas/tema1/img-8.png")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    p.text-small Ley-1562-de-2012 
+                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
 
 </template>
 

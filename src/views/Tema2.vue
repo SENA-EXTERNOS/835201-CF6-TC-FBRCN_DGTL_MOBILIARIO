@@ -65,7 +65,7 @@
       div(x="80%" y="25%" tooltip="tooltip de max 35 caracteres" numero="3")
         .row 
           .col-8
-            p Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en software de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
+            p Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en <em>software</em> de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
         
             p Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
 

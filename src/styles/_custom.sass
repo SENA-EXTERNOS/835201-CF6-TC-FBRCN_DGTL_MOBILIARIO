@@ -2,14 +2,15 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    right: 58%
+    width: 120px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 40%
+    right: -5%
+    width: 150px
 
 @keyframes float1
   0%
@@ -27,11 +28,16 @@
 //Custom del banner principal
 
 .banner-principal .tarjeta
-  background-image: none !important
+  background-image: url("../assets/curso/portada/img-back.png") !important
+  background-size: contain
+  background-repeat: no-repeat
   background-color: #EFEFEF
 
 .banner-principal  p,h1
   color: #212529 !important
+
+.banner-principal__row .banner-principal__img
+  padding-right: 0 !important
 
 // Introduccion
 
@@ -79,7 +85,16 @@
       background-color: #E1E4E9!important
       left: 50% !important
 
+
+
 // Color de las tarjetas tema 1
+
+.color-ajusteuno
+  background-color: #305075 !important
+  padding: 0 1.5rem
+
+
+
 
 .tarjeta--boton
   background-color: #C5E3FC 
@@ -117,11 +132,15 @@
       p
         font-size: 0.85em
 
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: #EFEFEF
+
 // color tarjeta final
 
 .color-ajuste
   background-color: #305075 !important
   padding: 0 1.5rem
+  padding-top: 1rem
 
 .color-fondot
   background-color: #E8F4FE !important
@@ -141,7 +160,14 @@
   background-color: #A2E6B0 !important
 
 .acordion__activo
-  background-color: #fdf3e1 !important
+  background-color: #E1E4E9 !important
+
+
+
+//tema 3
+
+.img-alto
+  height: 320px !important
 
 // imagenes finales
 .img-linea
@@ -163,7 +189,8 @@
 .color-enalce
   color: #2196F3 !important
   
-
+.img-infografica-b__item
+  width: 4.5% !important
   
 
 
