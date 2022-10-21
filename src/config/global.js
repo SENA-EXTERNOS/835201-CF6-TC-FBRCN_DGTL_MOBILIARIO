@@ -231,7 +231,7 @@ export default {
       link: 'https://all3dp.com/es/2/simulador-cnc-online-gratis/',
     },
     {
-      referencia: `Crespo, Mauricio (2016) BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos. `,
+      referencia: `<em>Crespo, Mauricio (2016) BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos.</em> `,
       link: `https://www.interempresas.net/FeriaVirtual/Catalogos_y_documentos/199030/BobCAD-CAM-V29---MILL-5-PRO.-Mecanizado-de-5-Ejes-Simultaneos.pdf`,
     },
     {

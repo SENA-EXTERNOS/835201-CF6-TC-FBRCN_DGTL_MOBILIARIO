@@ -32,7 +32,7 @@
     h4.mb-5 Analice algunos aspectos para tener en cuenta a la hora de seleccionar el tipo de máquinas.
 
     .titulo-sexto.color-secundario.color-sena.pb-0
-      p.mt-1 <b>Figura 1</b>. <em>Selección de máquinas CNC</em>
+      p.mt-1.mb-5 <b>Figura 1</b>. <em>Selección de máquinas CNC</em>
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -78,7 +78,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido.pb-2
       h2 2.2 Configuración de parámetros para mecanizado CNC
 
-    p Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta. 
+    p.mb-5 Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta. 
 
     p.mb-5 Los principales parámetros para configurar son:
 
@@ -106,7 +106,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido.pb-2
       h2 2.3 Configuración de parámetros para mecanizado CNC
 
-    p Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
+    p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
 
     h4.mb-5 Observe a continuación algunas de esas ecuaciones matemáticas.  
 

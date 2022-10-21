@@ -257,7 +257,7 @@
       .bloque-texto-f__autor.mb-3
         em El Control Numérico Computarizado, también llamado CNC, es todo aquel dispositivo que posee la capacidad de controlar la posición y velocidad de los motores que accionan los ejes de la máquina para realizar movimientos que no se pueden lograr manualmente como círculos, líneas diagonales y figuras complejas tridimensionales.
 
-    h3.mb-5 Maquinas CNC
+    h3.mb-5 Máquinas CNC
 
     p Las principales máquinas que son controladas por el computador o máquinas de control numérico NC, son las de mecanizado como el torno y la fresadora, tal como se mencionó anteriormente; el funcionamiento básico es el mismo de las máquinas convencionales, solo que traen servomotores para controlar el desempeño de las herramientas de corte.
 
@@ -281,7 +281,7 @@
           
       .row(titulo="Corte por láser")
         .col-md-6.mb-4.mb-md-0
-          p Al igual que las maquinas anteriores, la máquina de corte por láser está controlada por un computador; las formas para corte o grabado se definen a través de un software digital de la máquina que permite trabajar con materiales como metal y madera. El rayo láser es un rayo de luz concentrado que corta los materiales con el calor que se concentra en un solo punto. 
+          p Al igual que las máquinas anteriores, la máquina de corte por láser está controlada por un computador; las formas para corte o grabado se definen a través de un software digital de la máquina que permite trabajar con materiales como metal y madera. El rayo láser es un rayo de luz concentrado que corta los materiales con el calor que se concentra en un solo punto. 
 
         .col-md-6
           figure
@@ -348,29 +348,31 @@
         .col-lg-7
           .titulo-segundo.color-acento-contenido.mb-5
             h3.mt-5 1.3 Control Numérico Computarizado CNC
-          p.mb-5 Para ampliar la información de la normativa para el mecanizado, se sugiere revisar el material complementario  disponible en este recurso educativo. 
-          .tarjeta.opacidad.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-6.col-lg-2
-                img(src="@/assets/curso/temas/tema1/img-9.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    p.text-small Resolucion-1016-de-1989 
-                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.fas.fa-file-download
-          .tarjeta.opacidad.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col-3.col-sm-6.col-lg-2
-                img(src="@/assets/curso/temas/tema1/img-8.png")
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    p.text-small Ley-1562-de-2012 
-                    a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                      span Descargar
-                      i.fas.fa-file-download
+          p.mb-5 Para ampliar la información de la normativa para el mecanizado, se sugiere revisar el material complementario  disponible en este recurso educativo.
+
+          .row.justify-content-between
+            .col-6.tarjeta.opacidad.p-3.mb-5.tarjeta-espacio
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-6.col-lg-2
+                  img(src="@/assets/curso/temas/tema1/img-9.png")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.text-small Resolucion-1016-de-1989 
+                      a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Resolucion-1016-de-1989.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
+            .col-6.tarjeta.opacidad.p-3.mb-5.tarjeta-espacio
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-6.col-lg-2
+                  img(src="@/assets/curso/temas/tema1/img-8.png")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.text-small Ley-1562-de-2012 
+                      a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Ley-1562-de-2012.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-file-download
 
 </template>
 

@@ -64,31 +64,31 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-3.png')
 
-      div(x="19%" y="10%" tooltip="tooltip de max 35 caracteres" numero="1")
-        .row 
+      .tarjeta.colormodal(x="19%" y="10%" numero="1")
+        .row.justify-content-center.mb-5.p-5
           .col-6
-            h4.mt-5 CNCSimulator Pro:
+            p.mt-5.color-texto <b>CNCSimulator Pro:</b> 
 
-            p.mt-4 “es un programa popular que existe desde 2001. Se trata de una herramienta potente, aunque no excesivamente compleja, con visualización 3D mejorada y soporte para diferentes máquinas (torneado, fresado…) y procesos (corte por láser o impresión 3D)” (Carolo, 2022).
+            p.mt-4.color-texto “es un programa popular que existe desde 2001. Se trata de una herramienta potente, aunque no excesivamente compleja, con visualización 3D mejorada y soporte para diferentes máquinas (torneado, fresado…) y procesos (corte por láser o impresión 3D)” (Carolo, 2022).
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=6p8rTMARzrM" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.color-enalce <b>Enlace web.Video de YouTube</b>
+                p.color-texto.h4.mt-5 Enlace web.Video de YouTube
             
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-4.png')
-      div(x="32%" y="46%" tooltip="tooltip de max 35 caracteres" numero="2")
-        .row 
+      .tarjeta.colormodal(x="32%" y="46%" numero="2")
+        .row.justify-content-center.mb-5.p-5
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-5.png')
           .col-6
-            h4.mt-5 G-Wizard Editor: 
+            p.color-texto.h4.mt-5 G-Wizard Editor: 
 
-            p.mt-4 es un simulador y una herramienta de edición de código G que se utiliza principalmente para comprobar, modificar o escribir código generado mediante CAM. La función denominada «programación conversacional» constituye una forma interactiva de escribir código G con imágenes descriptivas, algo así como rellenar los espacios en blanco. También cuenta con herramientas de comprobación de errores del código que describen los fallos en lugar de limitarse a señalarlos. (Carolo, 2022)
+            p.mt-4.color-texto es un simulador y una herramienta de edición de código G que se utiliza principalmente para comprobar, modificar o escribir código generado mediante CAM. La función denominada «programación conversacional» constituye una forma interactiva de escribir código G con imágenes descriptivas, algo así como rellenar los espacios en blanco. También cuenta con herramientas de comprobación de errores del código que describen los fallos en lugar de limitarse a señalarlos. (Carolo, 2022)
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=fJhcoS5YTxQ&t=1s" target="_blank")
               .anexo__icono
@@ -97,12 +97,12 @@
                 p.color-enalce <b>Enlace web.Video de YouTube</b>
             
 
-      div(x="44%" y="10%" tooltip="tooltip de max 35 caracteres" numero="3")
-        .row 
+      .tarjeta.colormodal(x="44%" y="10%" numero="3")
+        .row.justify-content-center.mb-5.p-5
           .col-6
-            h4.mt-5 CAMotics:
+            p.color-texto.h4.mt-5 CAMotics:
 
-            p.mt-4 CAMotics es un simulador de código G y de trayectorias de herramientas de código abierto dirigido a la comunidad de creadores. Desde su lanzamiento en 2011, el programa ha acumulado una amplia y activa comunidad de usuarios. Funciona en Windows, Mac y Linux, y es una de las pocas herramientas de simulación multiplataforma completas que existen (Carolo, 2022).
+            p.mt-4.color-texto CAMotics es un simulador de código G y de trayectorias de herramientas de código abierto dirigido a la comunidad de creadores. Desde su lanzamiento en 2011, el programa ha acumulado una amplia y activa comunidad de usuarios. Funciona en Windows, Mac y Linux, y es una de las pocas herramientas de simulación multiplataforma completas que existen (Carolo, 2022).
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=3uG0wgZ8kh8&t=1s" target="_blank")
               .anexo__icono
@@ -114,15 +114,15 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-6.png')
 
-      div(x="68%" y="46%" tooltip="tooltip de max 35 caracteres" numero="4")
-        .row 
+      .tarjeta.colormodal(x="68%" y="46%" numero="4")
+        .row.justify-content-center.mb-5.p-5 
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-7.png')
           .col-6
-            h4.mt-5 NC Viewer: 
+            p.color-texto.h4.mt-5 NC Viewer: 
 
-            p.mt-4 NC Viewer es el único simulador CNC de esta lista basado en navegador. Esencialmente, se trata de un simulador de trayectorias de herramientas con un entorno 3D interactivo y claro. Aunque no ofrece tantas funcionalidades como otras herramientas de simulación, es útil para verificar, visualizar y trazar código G de CNC  (Carolo, 2022).
+            p.mt-4.color-texto NC Viewer es el único simulador CNC de esta lista basado en navegador. Esencialmente, se trata de un simulador de trayectorias de herramientas con un entorno 3D interactivo y claro. Aunque no ofrece tantas funcionalidades como otras herramientas de simulación, es útil para verificar, visualizar y trazar código G de CNC  (Carolo, 2022).
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=6p8rTMARzrM" target="_blank")
               .anexo__icono
@@ -130,12 +130,12 @@
               .anexo__texto
                 p.color-enalce <b>Pendiente video</b>
             
-      div(x="81%" y="10%" tooltip="tooltip de max 35 caracteres" numero="5")
-        .row 
+      .tarjeta.colormodal(x="81%" y="10%" numero="5")
+        .row.justify-content-center.mb-5.p-5
           .col-6
-            h4.mt-5 Eureka G-Code: 
+            p.color-texto.h4.mt-5 Eureka G-Code: 
 
-            p.mt-4 “forma parte de un conjunto de software más amplio que incluye potentes herramientas, como un simulador multieje para la fabricación aditiva y un módulo que optimiza el código G mediante IA.” (Carolo, 2022).
+            p.mt-4.color-texto “forma parte de un conjunto de software más amplio que incluye potentes herramientas, como un simulador multieje para la fabricación aditiva y un módulo que optimiza el código G mediante IA.” (Carolo, 2022).
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=HrPN__guTcU" target="_blank")
               .anexo__icono
