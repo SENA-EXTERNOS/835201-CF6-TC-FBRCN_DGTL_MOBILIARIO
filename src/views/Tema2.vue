@@ -39,35 +39,36 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-2.png')
 
-      div(x="17%" y="25%" tooltip="tooltip de max 35 caracteres" numero="1")
-        .row 
+      .tarjeta.colormodal(x="17%" y="25%" numero="1")
+        .row.justify-content-center.mb-5.p-5
           .col-8
-            p Si el objeto a mecanizar es o tiene partes en forma cilíndrica o con superficies generadas por revolución del material, entonces seguramente seleccionaremos un torno, como en la siguiente figura:
-            p Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar. 
+            p.mt-4.color-texto Si el objeto a mecanizar es o tiene partes en forma cilíndrica o con superficies generadas por revolución del material, entonces seguramente seleccionaremos un torno, como en la siguiente figura:
+            
+            p.mt-4.color-texto Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar. 
 
-            p El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
+            p.mt-4.color-texto El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
 
           .col-4
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-1.png')
 
-      div(x="48%" y="30%" tooltip="tooltip de max 35 caracteres" numero="2")
-        .row 
+      .tarjeta.colormodal(x="48%" y="30%" numero="2")
+        .row.justify-content-center.mb-5.p-5
           .col-8
-            p Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
+            p.mt-4.color-texto Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
 
-            p El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
+            p.mt-4.color-texto El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
 
           .col-4
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-2.png')
 
-      div(x="80%" y="25%" tooltip="tooltip de max 35 caracteres" numero="3")
-        .row 
+      .tarjeta.colormodal(x="80%" y="25%" numero="3")
+        .row.justify-content-center.mb-5.p-5
           .col-8
-            p Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en <em>software</em> de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
+            p.mt-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en <em>software</em> de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
         
-            p Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
+            p.mt-4.color-texto Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
 
           .col-4
             figure
