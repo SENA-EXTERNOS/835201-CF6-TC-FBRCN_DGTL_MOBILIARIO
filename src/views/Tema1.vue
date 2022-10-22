@@ -24,7 +24,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
       h2 1.1 Conceptos, definición y tipos de software
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/tema1/img-2.png")
