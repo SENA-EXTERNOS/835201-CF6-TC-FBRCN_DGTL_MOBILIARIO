@@ -32,7 +32,7 @@
         p Para comprender el proceso de fabricación de un producto mediante software CAM, es necesario tener claros algunos conceptos y definiciones de términos que se mencionan en el desarrollo del componente.
         h5 A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:
 
-    SlyderA.tarjeta.opacidad.my-4.p-3(tipo="b")
+    SlyderA.tarjeta.opacidad.my-4.p-3.mb-5(tipo="b")
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAD 
@@ -62,11 +62,11 @@
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-4.png')
 
-    p En una publicación sobre fabricación asistida por ordenador <em>(CAM)</em>, publicada por Siemens (2022) se afirma que:
+    p.mb-5 En una publicación sobre fabricación asistida por ordenador <em>(CAM)</em>, publicada por Siemens (2022) se afirma que:
 
-    p Una definición más amplia de la CAM puede incluir el uso de las aplicaciones de ordenador para definir un plan de fabricación para el diseño de herramientas, el diseño asistido por ordenador (CAD), la preparación de modelos, la programación NC, la programación de inspección de máquinas de medición por coordenadas (CMM), la simulación de máquina-herramienta o el postprocesamiento. A continuación, el plan se ejecuta en un entorno de producción, como el control numérico directo (DNC), la gestión de herramientas, el mecanizado CNC o la ejecución CMM. 
+    p.mb-5 Una definición más amplia de la CAM puede incluir el uso de las aplicaciones de ordenador para definir un plan de fabricación para el diseño de herramientas, el diseño asistido por ordenador (CAD), la preparación de modelos, la programación NC, la programación de inspección de máquinas de medición por coordenadas (CMM), la simulación de máquina-herramienta o el postprocesamiento. A continuación, el plan se ejecuta en un entorno de producción, como el control numérico directo (DNC), la gestión de herramientas, el mecanizado CNC o la ejecución CMM. 
 
-    h4.mb-4 Tipos de software
+    h4.mb-5 Tipos de software
 
     .bloque-texto-a.p-4.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
