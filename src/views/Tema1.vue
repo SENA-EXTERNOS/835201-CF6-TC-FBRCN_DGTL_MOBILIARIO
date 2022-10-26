@@ -19,7 +19,7 @@
         .cajon.color-primario.p-4.mb-4.color-gris
           p Para poder trabajar con el CAM, la persona debe tener conocimientos básicos en CAD y en mecanizado convencional, ya que inicialmente es necesario interpretar muy bien los planos técnicos, para luego poder evaluar y seleccionar eficazmente los procesos, las máquinas, las herramientas y las operaciones para realizar el programa que logrará controlar las máquinas y así, obtener la pieza final que cumpla con todos los requerimientos planteados.
 
-    .separador.p3.mb-5
+    Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
       h2 1.1 Conceptos, definición y tipos de software
