@@ -16,7 +16,7 @@
               img.img-alto(src="@/assets/curso/temas/tema3/img-1.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Proceso de programación
-            p.mb-0 En la programación con la ayuda de un software de fabricación asistida por computador CAM, se introducen todas las instrucciones en un lenguaje que reconozcan la máquinas CNC, para que ejecuten las operaciones, en el orden indicado, con las herramientas adecuadas y con los parámetros definidos. 
+            p.mb-0 En la programación con la ayuda de un <em>software</em> de fabricación asistida por computador CAM, se introducen todas las instrucciones en un lenguaje que reconozcan las máquinas CNC, para que ejecuten las operaciones, en el orden indicado, con las herramientas adecuadas y con los parámetros definidos. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .tarjeta.crd_hover_txt(data-aos="flip-left")
@@ -25,12 +25,12 @@
               img.img-alto(src="@/assets/curso/temas/tema3/img-2.png")
           .crd_hover_txt--body
             h4.mb-3 Proceso de simulación
-            p.mb-0 Las Representación gráfica en un monitor de todo el proceso de mecanizado que se ha programado en CAM, desde el montaje del material, mostrando las herramientas seleccionadas y sus cambios, las trayectorias que trazarán, su profundidad y la forma que tomará el material a medida que el mecanizado avanza; también podemos apreciar los momentos en que las funciones misceláneas sean ejecutadas, por ejemplo, cuándo se prende o se apaga el refrigerante. 
+            p.mb-0 Representación gráfica en un monitor de todo el proceso de mecanizado que se ha programado en CAM, desde el montaje del material, mostrando las herramientas seleccionadas y sus cambios, las trayectorias que trazarán, su profundidad y la forma que tomará el material a medida que el mecanizado avanza; también podemos apreciar los momentos en que las funciones misceláneas sean ejecutadas, por ejemplo, cuándo se prende o se apaga el refrigerante. 
 
     .separador.p3.mb-5
 
     #t_3_1.titulo-segundo.color-acento-contenido.pb-2
-      h2 3.1 Proceso CNC
+      p 3.1 Proceso CNC
     p.mb-5 En el siguiente video se visibiliza el proceso de programación de máquinas herramientas de control numérico computarizado CNC
 
     figure.mb-5
@@ -40,10 +40,10 @@
     .separador.p3.mb-5
 
     #t_3_2.titulo-segundo.color-acento-contenido.pb-2
-      h2 3.2 Simulación del mecanizado CNC 
+      p 3.2 Simulación del mecanizado CNC 
     p.mb-5 Luego de haber definido y configurado las operaciones con las diferentes herramientas en la máquina CNC, y antes de ejecutar o correr el programa, se procede a simularlo con el objetivo de detectar posibles fallas y corregirlas a tiempo.
 
-    h5.mb-5 Para tener más claridad con respecto a los simuladores CNC, analice este concepto:
+    p.mb-5 Para tener más claridad con respecto a los simuladores CNC, analice este concepto:
 
     .bloque-texto-f.color-nota.pt-4.px-5.mb-5
       .bloque-texto-f__comillas
@@ -53,9 +53,9 @@
       .bloque-texto-f__autor.mb-3
         em Según Carolo (2022):
         br
-        em Los simuladores CNC son aplicaciones matemáticas diseñadas para predecir el comportamiento, el rendimiento y el resultado de determinados procesos de fabricación. Proporcionan los medios para probar y verificar el programa de CNC, normalmente escrito en código G, antes de enviar las instrucciones a la máquina. Pueden proporcionar información que permite optimizar todo el proceso, desde verificar la integridad del código hasta prevenir cualquier problema que pueda dañar los componentes físicos. Dicho esto, existen varios tipos de simuladores CNC que se centran en diferentes aspectos.
+        p Los simuladores CNC son aplicaciones matemáticas diseñadas para predecir el comportamiento, el rendimiento y el resultado de determinados procesos de fabricación. Proporcionan los medios para probar y verificar el programa de CNC, normalmente escrito en código G, antes de enviar las instrucciones a la máquina. Pueden proporcionar información que permite optimizar todo el proceso, desde verificar la integridad del código hasta prevenir cualquier problema que pueda dañar los componentes físicos. Dicho esto, existen varios tipos de simuladores CNC que se centran en diferentes aspectos.
 
-    p.mb-5 Las máquinas CNC generalmente traen incluido un simulador, sin embargo, podemos encontrar algunos junto con los softwarsoftwares de CAM, estos de acuerdo con la estructura del control de máquina funcionan de una u otra forma. A continuación, un ejemplo: 
+    p.mb-5 Las máquinas CNC generalmente traen incluido un simulador, sin embargo, podemos encontrar algunos junto con los <em>softwarsoftwares</em> de CAM, estos de acuerdo con la estructura del control de máquina funcionan de una u otra forma. A continuación, un ejemplo: 
 
     h5.mb-5 Algunos de los simuladores que se pueden conseguir en el mercado referente a la tecnología CNC, (carolo, 2022)
 

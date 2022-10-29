@@ -148,25 +148,25 @@ export default {
   complementario: [
     {
       tema: 'Materiales',
-      referencia: `De máquinas y herramientas (26 de abril de 2015). Materiales según la norma ISO. Recuperado el 26 de septiembre de 2022.`,
+      referencia: `De máquinas y herramientas (26 de abril de 2015).<em> Materiales según la norma ISO</em>. Recuperado el 26 de septiembre de 2022.`,
       tipo: 'Articulo',
       link: `https://www.demaquinasyherramientas.com/mecanizado/materiales-segun-la-norma-iso`,
     },
     {
       tema: 'CNC',
-      referencia: `Hernández, J. (2020). Curso básico de CNC. Recuperado el 26 de septiembre de 2022.`,
+      referencia: `Hernández, J. (2020). <em>Curso básico de CNC</em>. Recuperado el 26 de septiembre de 2022.`,
       tipo: 'Presentación',
       link: 'https://slideplayer.es/slide/17991266/',
     },
     {
       tema: 'CAD/CAM',
-      referencia: `Perez Camps. (s.f.). Qué es CAD/CAM. [Web log post]. Blogspot.`,
+      referencia: `Perez Camps. (s.f.). <em>Qué es CAD/CAM</em>. [Web log post]. Blogspot.`,
       tipo: 'Artículo',
       link: `https://perezcamps.com/es/que-es-cam-cad/`,
     },
     {
       tema: 'PLM',
-      referencia: `Siemens. (2022). Fabricación asistida por ordenador (CAM). Recuperado el 26 de septiembre de 2022. `,
+      referencia: `Siemens. (2022). <em>Fabricación asistida por ordenador (CAM)</em>. Recuperado el 26 de septiembre de 2022. `,
       tipo: 'Artículo',
       link: `https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139`,
     },
@@ -179,6 +179,10 @@ export default {
     {
       termino: 'CAD',
       significado: `del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador`,
+    },
+    {
+      termino: 'CAM',
+      significado: `del inglés <em>Computer Aided Manufacture</em>, o fabricación asistida por computador`,
     },
     {
       termino: 'CNC',
@@ -211,7 +215,7 @@ export default {
   ],
   referencias: [
     {
-      referencia: '3DCadPortal (2022). PowerMill.',
+      referencia: '3DCadPortal (2022). <em>PowerMill</em>.',
       link: 'https://www.3dcadportal.com/delcam-powermill.html',
     },
     {
@@ -219,35 +223,35 @@ export default {
       link: 'https://www.3dcadportal.com/rhinocam.html',
     },
     {
-      referencia: '3DCadPortal (2022). Solidcam. ',
+      referencia: '3DCadPortal (2022). <em>Solidcam</em>. ',
       link: `https://www.3dcadportal.com/solidcam.html#:~:text=Solidcam%20es%20un%20software%20para,sobre%20SolidWorks%20y%20Autodesk%20Inventor.`,
     },
     {
-      referencia: `Autycom (2020). ¿Qué es el control numérico computarizado o CNC? `,
+      referencia: `Autycom (2020). <em>¿Qué es el control numérico computarizado o CNC?</em> `,
       link: `https://www.autycom.com/que-es-el-control-numerico-computarizado-o-cnc/`,
     },
     {
-      referencia: `Carolo, Lucas (2022). Los mejores simuladores CNC de 2022 (online y offline).`,
+      referencia: `Carolo, Lucas (2022). <em>Los mejores simuladores CNC de 2022 (online y offline)</em>.`,
       link: 'https://all3dp.com/es/2/simulador-cnc-online-gratis/',
     },
     {
-      referencia: `<em>Crespo, Mauricio (2016) BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos.</em> `,
+      referencia: `Crespo, Mauricio (2016) <em>BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos.</em> `,
       link: `https://www.interempresas.net/FeriaVirtual/Catalogos_y_documentos/199030/BobCAD-CAM-V29---MILL-5-PRO.-Mecanizado-de-5-Ejes-Simultaneos.pdf`,
     },
     {
-      referencia: 'Filext (2022). Abrir un archivo CAM.',
+      referencia: 'Filext (2022). <em>Abrir un archivo CAM</em>.',
       link: 'https://filext.com/es/extension-de-archivo/CAM',
     },
     {
-      referencia: 'Hernandez, Javier (2020). Curso básico de CNC. ',
+      referencia: 'Hernandez, Javier (2020).<em> Curso básico de CNC</em>. ',
       link: 'https://player.slideplayer.es/109/17991266/slides/slide_8.jpg',
     },
     {
-      referencia: `Inoxform.au (2022). Descubre lo diferentes tipos de máquinas CNC.`,
+      referencia: `Inoxform.au (2022). <em>Descubre lo diferentes tipos de máquinas CNC</em>.`,
       link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
     },
     {
-      referencia: 'Plm.automation.siemens.com/ (2022). Que es el CAM?.',
+      referencia: `Plm.automation.siemens.com/ (2022).<em>¿Que es el CAM</em>?.`,
       link: `https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139`,
     },
   ],
