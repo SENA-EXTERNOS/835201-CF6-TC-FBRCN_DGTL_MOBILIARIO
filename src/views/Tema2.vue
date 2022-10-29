@@ -153,6 +153,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-linea-9.png')
 
+
 </template>
 
 <script>

@@ -143,8 +143,8 @@
 
     p.mb-5 Las fases de trabajo son las siguientes:
 
-    TabsC.color-acento-botones.mb-5
-      .py-3.py-md-4(titulo="Fase de diseño")
+    TabsB.color-acento-botones
+      .py-4.py-md-5(titulo="Fase de diseño")
         .row
           .col-md-6.mb-4.mb-md-0
             p.mb-5 En la fase de diseño encontramos los archivos generados o importados por el <em>software</em> CAD, que pueden tener diferentes extensiones dependiendo del fabricante. Para poder trabajar con estos archivos, estos se deben guardar con extensiones que permitan el intercambio o compatibilidad entre marcas. 
@@ -188,7 +188,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-pesta-1.png')
-      .py-3.py-md-4(titulo="Fase de programación")
+      .py-4.py-md-5(titulo="Fase de programación")
         .row
           .col-md-6.mb-4.mb-md-0
             p Las máquinas herramientas que trabajan con la tecnología <b>CNC</b> o de control numérico computarizado, operan con bastante precisión basadas en un archivo digital proveniente de un <em>software</em> CAM y en el que se encuentran todas las instrucciones para transformar el material de trabajo sin importar si es metal, madera, polímero, etc.
@@ -197,7 +197,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-pesta-2.png')
-      .py-3.py-md-4(titulo="Fase de simulación ")
+      .py-4.py-md-5(titulo="Fase de simulación ")
         .row
           .col-md-6.mb-4.mb-md-0
             p El <em>software</em> de simulación muestra virtualmente el comportamiento de la máquina de control numérico CNC, interpretando el programa creado con <b>código G</b>, con el fin de detectar y corregir los posibles problemas que se presentarían una vez se inicie el mecanizado real.
@@ -231,6 +231,28 @@
               img(src='@/assets/curso/temas/tema1/img-pesta-3.png')
 
     .separador.p3.mb-5
+
+    TabsB.color-primario
+      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Celebrate your failures 1
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+
+          .col-md-6
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+              figcaption Leyenda de la imagen
+          .col-md-6
+            h4 Celebrate your failures 2
+            p This is another paragraph. I think it needs to be added that the set of elements tested is not
+
 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-5
       p 1.3 Control Numérico Computarizado CNC
@@ -298,7 +320,7 @@
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-1.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.color-des
             h4.mb-3 Elementos de protección personal
             p.mb-0 Utilizar los indicados para cada área; generalmente son: gafas de protección, calzado de seguridad con puntera, ropa de trabajo según las indicaciones, así como los protectores para oídos.
 
@@ -307,7 +329,7 @@
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-2.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.color-des
             h4.mb-3 Recomendaciones del fabricante
             p.mb-0Las Las máquinas se deben utilizar de acuerdo con las recomendaciones del fabricante o proveedor.
 
@@ -316,7 +338,7 @@
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-3.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.color-des
             h4.mb-3 Iluminación
             p.mb-0 El espacio de trabajo debe tener la mejor iluminación posible. 
 
@@ -325,7 +347,7 @@
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-4.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.color-des
             h4.mb-3 Orden y aseo
             p.mb-0 Requisitos importantes, tanto para trabajar cómodamente como para evitar accidentes laborales.  
 
@@ -334,7 +356,7 @@
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-5.png", alt="alt")
-          .crd_hover_txt--body
+          .crd_hover_txt--body.color-des
             h4.mb-3 Mantenimiento de máquinas
             p.mb-0 Es imprescindible revisar los niveles de aceite y lubricación; asimismo, estar atento a partes defectuosa, entre otros.  
 

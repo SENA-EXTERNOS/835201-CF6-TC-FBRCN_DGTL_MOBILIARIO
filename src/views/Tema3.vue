@@ -10,7 +10,7 @@
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .tarjeta.crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajuste
             figure
               img.img-alto(src="@/assets/curso/temas/tema3/img-1.png", alt="alt")
@@ -51,8 +51,7 @@
         i.fas.fa-quote-right
       h4.text-regular.bloque-texto-f__texto
       .bloque-texto-f__autor.mb-3
-        em Según Carolo (2022):
-        br
+        p.mb-3 Según Carolo (2022):
         p Los simuladores CNC son aplicaciones matemáticas diseñadas para predecir el comportamiento, el rendimiento y el resultado de determinados procesos de fabricación. Proporcionan los medios para probar y verificar el programa de CNC, normalmente escrito en código G, antes de enviar las instrucciones a la máquina. Pueden proporcionar información que permite optimizar todo el proceso, desde verificar la integridad del código hasta prevenir cualquier problema que pueda dañar los componentes físicos. Dicho esto, existen varios tipos de simuladores CNC que se centran en diferentes aspectos.
 
     p.mb-5 Las máquinas CNC generalmente traen incluido un simulador, sin embargo, podemos encontrar algunos junto con los <em>softwarsoftwares</em> de CAM, estos de acuerdo con la estructura del control de máquina funcionan de una u otra forma. A continuación, un ejemplo: 
