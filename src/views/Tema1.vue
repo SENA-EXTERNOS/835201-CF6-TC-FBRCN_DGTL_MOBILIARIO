@@ -22,7 +22,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
-      p 1.1 Conceptos, definición y tipos de <em>software</em>
+      h5 1.1 Conceptos, definición y tipos de <em>software</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
@@ -62,7 +62,7 @@
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-4.png')
 
-    p.mb-5 En una publicación sobre fabricación asistida por ordenador <em>(CAM)</em>, publicada por Siemens (2022) se afirma que:
+    p.mb-5 En una publicación sobre <em>fabricación asistida por ordenador (CAM)</em>, publicada por Siemens (2022) se afirma que:
 
     p.mb-5 Una definición más amplia de la CAM puede incluir el uso de las aplicaciones de ordenador para definir un plan de fabricación para el diseño de herramientas, el diseño asistido por ordenador (CAD), la preparación de modelos, la programación NC, la programación de inspección de máquinas de medición por coordenadas (CMM), la simulación de máquina-herramienta o el postprocesamiento. A continuación, el plan se ejecuta en un entorno de producción, como el control numérico directo (DNC), la gestión de herramientas, el mecanizado CNC o la ejecución CMM. 
 
@@ -79,7 +79,7 @@
 
     p.mb-5 Las máquinas herramientas con las que se fabrica un modelo real deben ser de control numérico y compatibles con el <em>software</em> CAM, es decir, deben permitir recibir los archivos con las instrucciones o el programa generado en CAM. Por ejemplo, si se tiene una máquina de corte con plasma, esta tiene que ser compatible con el <em>software</em> CAM.
 
-    p.mb-5 Algunas de las marcas que fabrican<em>software</em> CAM más importantes en el mercado son:
+    p.mb-5 Algunas de las marcas que fabrican <em>software</em> CAM más importantes en el mercado son:
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -128,7 +128,7 @@
     .separador.p3.mb-5
 
     #t_1_2.titulo-segundo.color-acento-contenido.mb-5
-      p 1.2 Archivos digitales CAM
+      h5 1.2 Archivos digitales CAM
 
     .tarjeta.opacidad.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -143,7 +143,7 @@
 
     p.mb-5 Las fases de trabajo son las siguientes:
 
-    TabsB.color-acento-botones
+    TabsB.color-acento-botones.mb-5
       .py-4.py-md-5(titulo="Fase de diseño")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -232,30 +232,8 @@
 
     .separador.p3.mb-5
 
-    TabsB.color-primario
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not
-
-
     #t_1_3.titulo-segundo.color-acento-contenido.mb-5
-      p 1.3 Control Numérico Computarizado CNC
+      h5 1.3 Control Numérico Computarizado CNC
 
     .bloque-texto-a.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between
@@ -278,7 +256,7 @@
       .bloque-texto-f__autor.mb-3
         p El Control Numérico Computarizado, también llamado CNC, es todo aquel dispositivo que posee la capacidad de controlar la posición y velocidad de los motores que accionan los ejes de la máquina para realizar movimientos que no se pueden lograr manualmente como círculos, líneas diagonales y figuras complejas tridimensionales.
 
-    p.mb-5 <<em>Máquinas CNC</em>
+    h4.mb-5 Máquinas CNC
 
     p Las principales máquinas que son controladas por el computador o máquinas de control numérico NC, son las de mecanizado como el torno y la fresadora, tal como se mencionó anteriormente; el funcionamiento básico es el mismo de las máquinas convencionales, solo que traen servomotores para controlar el desempeño de las herramientas de corte.
 
@@ -302,13 +280,13 @@
           
       .row(titulo="Corte por láser")
         .col-md-6.mb-4.mb-md-0
-          p Al igual que las máquinas anteriores, la máquina de corte por láser está controlada por un computador; las formas para corte o grabado se definen a través de un software digital de la máquina que permite trabajar con materiales como metal y madera. El rayo láser es un rayo de luz concentrado que corta los materiales con el calor que se concentra en un solo punto. 
+          p Al igual que las máquinas anteriores, la máquina de corte por láser está controlada por un computador; las formas para corte o grabado se definen a través de un <em>software</em> digital de la máquina que permite trabajar con materiales como metal y madera. El rayo láser es un rayo de luz concentrado que corta los materiales con el calor que se concentra en un solo punto. 
 
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/img-tar-7.png')
            
-    p.mb-5 <em>Normativa para el mecanizado</em>
+    h4.mb-5 Normativa para el mecanizado
 
     p.mb-5 Las normas para mecanizar materiales se enfocan principalmente en la seguridad del operador de la máquina herramienta y pueden cambiar de acuerdo con el proceso de mecanizado que se vaya a ejecutar, con el material que se vaya a mecanizar, si el mecanizado es formativo o productivo, etc.
 

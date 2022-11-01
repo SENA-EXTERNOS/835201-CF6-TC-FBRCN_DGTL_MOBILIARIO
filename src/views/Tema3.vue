@@ -19,7 +19,7 @@
             p.mb-0 En la programación con la ayuda de un <em>software</em> de fabricación asistida por computador CAM, se introducen todas las instrucciones en un lenguaje que reconozcan las máquinas CNC, para que ejecuten las operaciones, en el orden indicado, con las herramientas adecuadas y con los parámetros definidos. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .tarjeta.crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajuste
             figure
               img.img-alto(src="@/assets/curso/temas/tema3/img-2.png")
@@ -30,7 +30,7 @@
     .separador.p3.mb-5
 
     #t_3_1.titulo-segundo.color-acento-contenido.pb-2
-      p 3.1 Proceso CNC
+      h5 3.1 Proceso CNC
     p.mb-5 En el siguiente video se visibiliza el proceso de programación de máquinas herramientas de control numérico computarizado CNC
 
     figure.mb-5
@@ -40,7 +40,7 @@
     .separador.p3.mb-5
 
     #t_3_2.titulo-segundo.color-acento-contenido.pb-2
-      p 3.2 Simulación del mecanizado CNC 
+      h5 3.2 Simulación del mecanizado CNC 
     p.mb-5 Luego de haber definido y configurado las operaciones con las diferentes herramientas en la máquina CNC, y antes de ejecutar o correr el programa, se procede a simularlo con el objetivo de detectar posibles fallas y corregirlas a tiempo.
 
     p.mb-5 Para tener más claridad con respecto a los simuladores CNC, analice este concepto:

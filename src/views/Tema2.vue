@@ -25,7 +25,7 @@
     .separador.p3.mb-5
 
     #t_2_1.titulo-segundo.color-acento-contenido.pb-2
-      p 2.1 Selección de máquinas CNC
+      h5 2.1 Selección de máquinas CNC
 
     p.mb-5 Para seleccionar adecuadamente las máquinas herramientas con las que se fabricará un producto, es necesario partir del diseño formal, es decir, revisar el modelo para determinar qué partes de este se obtendrán con la fresadora, cuáles con el torno y en qué orden se trabajará. 
 
@@ -77,7 +77,7 @@
     .separador.p3.mb-5
 
     #t_2_2.titulo-segundo.color-acento-contenido.pb-2
-      p 2.2 Configuración de parámetros para mecanizado CNC
+      h5 2.2 Configuración de parámetros para mecanizado CNC
 
     p.mb-5 Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta. 
 
@@ -105,7 +105,7 @@
     .separador.p3.mb-5
 
     #t_2_3.titulo-segundo.color-acento-contenido.pb-2
-      p 2.3 Matemáticas aplicadas al mecanizado
+      h5 2.3 Matemáticas aplicadas al mecanizado
 
     p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
 
