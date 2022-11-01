@@ -22,7 +22,7 @@
     Separador
 
     #t_1_1.titulo-segundo.color-acento-contenido.pb-2
-      h5 1.1 Conceptos, definición y tipos de <em>software</em>
+      h3 1.1 Conceptos, definición y tipos de <em>software</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
@@ -128,7 +128,7 @@
     .separador.p3.mb-5
 
     #t_1_2.titulo-segundo.color-acento-contenido.mb-5
-      h5 1.2 Archivos digitales CAM
+      h3 1.2 Archivos digitales CAM
 
     .tarjeta.opacidad.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
@@ -233,7 +233,7 @@
     .separador.p3.mb-5
 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-5
-      h5 1.3 Control Numérico Computarizado CNC
+      h3 1.3 Control Numérico Computarizado CNC
 
     .bloque-texto-a.p-md-5.mb-5.fnd-izq
       .row.m-0.align-items-center.justify-content-between

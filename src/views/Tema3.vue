@@ -30,7 +30,7 @@
     .separador.p3.mb-5
 
     #t_3_1.titulo-segundo.color-acento-contenido.pb-2
-      h5 3.1 Proceso CNC
+      h3 3.1 Proceso CNC
     p.mb-5 En el siguiente video se visibiliza el proceso de programación de máquinas herramientas de control numérico computarizado CNC
 
     figure.mb-5
@@ -40,7 +40,7 @@
     .separador.p3.mb-5
 
     #t_3_2.titulo-segundo.color-acento-contenido.pb-2
-      h5 3.2 Simulación del mecanizado CNC 
+      h3 3.2 Simulación del mecanizado CNC 
     p.mb-5 Luego de haber definido y configurado las operaciones con las diferentes herramientas en la máquina CNC, y antes de ejecutar o correr el programa, se procede a simularlo con el objetivo de detectar posibles fallas y corregirlas a tiempo.
 
     p.mb-5 Para tener más claridad con respecto a los simuladores CNC, analice este concepto:
