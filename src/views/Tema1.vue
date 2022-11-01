@@ -7,14 +7,14 @@
         span 1
       h1 Fundamentos de CAM
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0  El <em>software</em> de fabricación asistida por computador (CAM) es el que permite que los proyectos que se han modelado con diseño asistido por computador (CAD) sean transferidos a las máquinas herramientas controladas por computador (CNC) en un lenguaje que estas pueden leer y ejecutar; el cual está estructurado en programas que, mediante códigos o palabras, contienen todas las instrucciones con los parámetros para que la máquina, a través de sus diferentes herramientas, ejecute las operaciones necesarias para transformar un material en bruto  en la pieza final diseñada.   
-    br
-    .row.justify-content-center.align-items-center.mb-5
+        p.mb-0  El <em>software</em> de fabricación asistida por computador (CAM) es el que permite que los proyectos que se han modelado con diseño asistido por computador (CAD) sean transferidos a las máquinas herramientas controladas por computador (CNC) en un lenguaje que estas pueden leer y ejecutar; el cual está estructurado en programas que, mediante códigos o palabras, contienen todas las instrucciones con los parámetros para que la máquina, a través de sus diferentes herramientas, ejecute las operaciones necesarias para transformar un material en bruto  en la pieza final diseñada.  
+         
+    .row.justify-content-center.align-items-center
       .col-8
         .cajon.color-primario.p-4.mb-4.color-gris
           p Para poder trabajar con el CAM, la persona debe tener conocimientos básicos en CAD y en mecanizado convencional, ya que inicialmente es necesario interpretar muy bien los planos técnicos, para luego poder evaluar y seleccionar eficazmente los procesos, las máquinas, las herramientas y las operaciones para realizar el programa que logrará controlar las máquinas y así, obtener la pieza final que cumpla con todos los requerimientos planteados.
