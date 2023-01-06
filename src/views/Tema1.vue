@@ -32,7 +32,7 @@
         p Para comprender el proceso de fabricación de un producto mediante <em>software</em> CAM, es necesario tener claros algunos conceptos y definiciones de términos que se mencionan en el desarrollo del componente.
         p A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:
 
-    SlyderA.tarjeta.opacidad.my-4.p-3.mb-5(tipo="b")
+    SlyderA.tarjeta.opacidad1.my-4.p-3.mb-5(tipo="b")
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAD 
