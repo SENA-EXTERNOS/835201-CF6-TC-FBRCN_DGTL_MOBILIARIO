@@ -22,17 +22,13 @@
         .cajon.color-primario.p-4.mb-4.color-cuadro
           p Interpretando muy bien los planos técnicos, y conociendo las máquinas herramientas CNC disponibles, se pueden proyectar las operaciones con las que se logrará el producto final y, asimismo, se decide qué máquinas y en qué momento serán correctamente utilizadas.
 
-    .separador.p3.mb-5
 
-    #t_2_1.titulo-segundo.color-acento-contenido.pb-2
-      h3 2.1 Selección de máquinas CNC
+    h3 Selección de máquinas CNC
 
     p.mb-5 Para seleccionar adecuadamente las máquinas herramientas con las que se fabricará un producto, es necesario partir del diseño formal, es decir, revisar el modelo para determinar qué partes de este se obtendrán con la fresadora, cuáles con el torno y en qué orden se trabajará. 
 
-    p.mb-5 Analice algunos aspectos para tener en cuenta a la hora de seleccionar el tipo de máquinas.
+    p.mb-5.fw-bold Analice algunos aspectos para tener en cuenta a la hora de seleccionar el tipo de máquinas:
 
-    .titulo-sexto.color-acento-contenido.pb-0
-      p.mt-1.mb-5 <b>Figura 1</b>. <em>Selección de máquinas CNC</em>
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -42,11 +38,15 @@
       .tarjeta.colormodal(x="17%" y="25%" numero="1")
         .row.justify-content-center.mb-5.p-5
           .col-8
-            p.mt-4.color-texto Si el objeto a mecanizar es o tiene partes en forma cilíndrica o con superficies generadas por revolución del material, entonces seguramente seleccionaremos un torno, como en la siguiente figura:
-            
-            p.mt-4.color-texto Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar. 
-
-            p.mt-4.color-texto El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
+            p.mt-4.color-texto Si el objeto a mecanizar es o tiene partes de forma cilíndrica o con superficies generadas por revolución del material.
+              br
+              br
+              |#[b Torno:]
+              br
+              |Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar. 
+              br
+              br
+              |El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
 
           .col-4
             figure
@@ -56,8 +56,13 @@
         .row.justify-content-center.mb-5.p-5
           .col-8
             p.mt-4.color-texto Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
+            br
+            br
+            |#[b.color-texto Fresadora:]
+            br
+            br
+            |El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
 
-            p.mt-4.color-texto El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
 
           .col-4
             figure
@@ -66,18 +71,19 @@
       .tarjeta.colormodal(x="80%" y="25%" numero="3")
         .row.justify-content-center.mb-5.p-5
           .col-8
-            p.mt-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en <em>software</em> de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
-        
-            p.mt-4.color-texto Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
+            p.mt-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en software de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
+              br
+              br
+              |#[b Cortadora:]
+              br
+              br
+              |Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
 
           .col-4
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-3.png')          
 
-    .separador.p3.mb-5
-
-    #t_2_2.titulo-segundo.color-acento-contenido.pb-2
-      h3 2.2 Configuración de parámetros para mecanizado CNC
+    h3 Configuración de parámetros para mecanizado CNC
 
     p.mb-5 Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta. 
 
@@ -102,10 +108,8 @@
               .col-12
                 p.mb-0 Distancia entre cada capa que la herramienta de corte desbasta entre una pasada y otra. Está condicionada por las características del material de trabajo y de la herramienta, así como por la potencia de la máquina.
 
-    .separador.p3.mb-5
 
-    #t_2_3.titulo-segundo.color-acento-contenido.pb-2
-      h3 2.3 Matemáticas aplicadas al mecanizado
+    h3 Matemáticas aplicadas al mecanizado
 
     p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
 

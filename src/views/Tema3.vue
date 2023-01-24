@@ -31,7 +31,7 @@
 
     #t_3_1.titulo-segundo.color-acento-contenido.pb-2
       h3 3.1 Proceso CNC
-    p.mb-5 En el siguiente video se visibiliza el proceso de programación de máquinas herramientas de control numérico computarizado CNC
+    p.mb-5 En el siguiente video se observa el proceso de programación de máquinas herramientas de control numérico computarizado CNC:
 
     figure.mb-5
       .video
@@ -56,7 +56,7 @@
 
     p.mb-5 Las máquinas CNC generalmente traen incluido un simulador, sin embargo, podemos encontrar algunos junto con los <em>softwarsoftwares</em> de CAM, estos de acuerdo con la estructura del control de máquina funcionan de una u otra forma. A continuación, un ejemplo: 
 
-    h5.mb-5 Algunos de los simuladores que se pueden conseguir en el mercado referente a la tecnología CNC, (carolo, 2022)
+    h5.mb-5 Algunos de los simuladores que se pueden conseguir en el mercado referente a la tecnología CNC: 
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -101,7 +101,7 @@
           .col-6
             p.color-texto.h4.mt-5 CAMotics:
 
-            p.mt-4.color-texto CAMotics es un simulador de código G y de trayectorias de herramientas de código abierto dirigido a la comunidad de creadores. Desde su lanzamiento en 2011, el programa ha acumulado una amplia y activa comunidad de usuarios. Funciona en Windows, Mac y Linux, y es una de las pocas herramientas de simulación multiplataforma completas que existen (Carolo, 2022).
+            p.mt-4.color-texto CAMotics es un simulador de código G y de trayectorias de herramientas de código abierto, dirigido a la comunidad de creadores. Desde su lanzamiento en el 2011, el programa ha acumulado una amplia y activa comunidad de usuarios. Funciona en Windows, Mac y Linux, y es una de las pocas herramientas de simulación multiplataforma completas que existen. (Carolo, 2022)
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=3uG0wgZ8kh8&t=1s" target="_blank")
               .anexo__icono
@@ -145,8 +145,10 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png')
-
-    h5.mb-5 Recuerde  realizar la actividad de aprendizaje y ver los otros recursos complementarios disponibles en el menú principal, estos le ayudarán a ampliar sus conocimientos.
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .cajon.color-primario.p-4.mb-4(style="background-color: #f3eeeb ")
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

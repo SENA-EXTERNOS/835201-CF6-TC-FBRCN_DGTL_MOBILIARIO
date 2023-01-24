@@ -30,34 +30,36 @@
           img(src="@/assets/curso/temas/tema1/img-2.png")
       .col-lg-6
         p Para comprender el proceso de fabricación de un producto mediante <em>software</em> CAM, es necesario tener claros algunos conceptos y definiciones de términos que se mencionan en el desarrollo del componente.
-        p A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:
+          br
+          br
+          | #[em A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:]
 
     SlyderA.tarjeta.opacidad1.my-4.p-3.mb-5(tipo="b")
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAD 
-          p.ms-5 Del inglés <b>Computer Aided Design (CAD)</b>, o diseño asistido por el computador.  Con este <em>software</em> se pueden crear modelos sólidos a partir de un plano o figuras planas, para luego ser importados en el CAM y planear su fabricación.
+          p.ms-5 #[b #[em Computer Aided Design] (CAD)], o Diseño Asistido por Computador. Con este #[em software], se pueden crear modelos sólidos a partir de un plano o figuras planas, para luego ser importados en el CAM y planear su fabricación.
         .col-lg-6
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-1.png')
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAE 
-          p.ms-5 Del inglés <b>Computer Aided Engineering (CAE)</b> o ingeniería asistida por computador. Es el<em>software</em> que permite a partir del diseño en CAD, realizar simulaciones para analizar aspectos de un proyecto como el comportamiento de un material frente a diferentes condiciones, la funcionalidad de un nuevo producto, etc. y así poder determinar su viabilidad o factibilidad.
+          p.ms-5 #[em #[b Computer Aided Engineering]] (CAE) o Ingeniería Asistida por Computador. Es el #[em software] que permite, a partir del diseño en CAD, realizar simulaciones para analizar aspectos de un proyecto, como el comportamiento de un material frente a diferentes condiciones, la funcionalidad de un nuevo producto, etc. y, de esta manera, poder determinar su viabilidad o factibilidad.
         .col-lg-6
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-2.png')
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAM
-          p.ms-5 Del inglés <b>Computer Aided Manufacture (CAM)</b> o <em>fabricación asistida por computador</em>.  Con esta ayuda digital se proyectan, se definen y se controlan las máquinas, las herramientas y trayectorias o recorridos necesarios para obtener la pieza o producto que ha sido modelada en CAD, es decir, <b>  las instrucciones que seguirá la máquina para fabricar un producto</b>. Por ejemplo, en la siguiente imagen se pueden observar las diferentes herramientas seleccionadas para el fresado de un producto y sus trayectorias.
+          p.ms-5 #[b #[em Computer Aided Manufacture]] (CAM) o Fabricación Asistida por Computador. Con esta ayuda digital se proyectan, se definen y se controlan las máquinas herramientas y trayectorias o recorridos, necesarios para obtener la pieza o producto que ha sido modelada en CAD; es decir, #[b las instrucciones que seguirá la máquina para fabricar un producto.] En la imagen se pueden observar las diferentes herramientas seleccionadas para el fresado de un producto y sus trayectorias.
         .col-lg-6
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-3.png')
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CNC
-          p.ms-5 Del inglés <em></em><b>Computer Numerical Control (CNC)</b> o control numérico computarizado. Se refiere a las máquinas herramientas a las cuales se les puede programar el control de sus operaciones mediante un <em></em>software CAM y que, al correr el programa, esta las ejecuta de tal manera que se logra la pieza deseada.
+          p.ms-5 #[b #[em Computer Numerical Control]] (CNC) o Control Numérico Computarizado. Se refiere a las máquinas herramientas a las cuales se les puede programar el control de sus operaciones mediante un #[em software] CAM y que, al correr el programa, esta las ejecuta de tal manera, que se logra la pieza deseada.
         .col-lg-6
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-4.png')
@@ -90,7 +92,7 @@
                 img(src='@/assets/curso/temas/tema1/img-tar-1.png')
 
           h3.text-center.mb-5 PowerMill 
-          p.text-center Es un <em>software</em> para manufactura CAM especializado para la fabricación de formas complejas típicamente encontradas en la industria aeroespacial, automotriz, dispositivos médicos e industrias fabricantes de herramental. <em></em>PowerMill fue creado por Delcam, después comprado por Autodesk.
+          p.text-center Es un #[em software] para manufactura CAM, especializado en la fabricación de formas complejas típicamente encontradas en la industria aeroespacial, automotriz, dispositivos médicos e industrias fabricantes de herramentales. PowerMill fue creado por Delcam, y después comprado por Autodesk.
 
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -101,8 +103,7 @@
                 img(src='@/assets/curso/temas/tema1/img-tar-2.png')
 
           h3.text-center.mb-5 RhinoCAM 
-          p.text-center.mb-5 Es un programa CAM ideal para manufactura de productos, prototipos, moldes, herramentales, y maquinado en general. Adecuado para usuarios con exigencias de manufactura complejas en productos irregulares dentro de <em></em>Rhinoceros. 
-          br
+          p.text-center.mb-5 Es un programa CAM ideal para manufactura de productos, prototipos, moldes, herramentales, y maquinado en general. Adecuado para usuarios con exigencias de manufactura complejas en productos irregulares dentro de Rhinoceros.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
         .tarjeta--boton.color-primario.text-white--hover.p-4
@@ -112,7 +113,7 @@
                 img(src='@/assets/curso/temas/tema1/img-tar-3.png')
 
           h3.text-center Solidcam
-          p.text-center Es un <em>software</em> para manufactura CAM 3D que está integrado sobre <em>SolidWorks</em> y <em>Autodesk Inventor</em>. Con operaciones de corte, fresado y torno para ser ejecutadas en centros de maquinado CNC usando la tecnología <em>iMachining</em>, una de sus ventajas es que el sistema explota toda la inteligencia de manejo de sólidos paramétricos 3D.
+          p.text-center Es un #[em software] para manufactura CAM 3D, que está integrado sobre SolidWorks y Autodesk Inventor. Con operaciones de corte, fresado y torno para ser ejecutadas en centros de maquinado CNC, usando la tecnología #[em Machining]; una de sus ventajas es que el sistema explota toda la inteligencia de manejo de sólidos paramétricos 3D.
 
       .col-sm-6.col-lg-3
         .tarjeta--boton.color-primario.p-4
@@ -122,8 +123,9 @@
                 img(src='@/assets/curso/temas/tema1/img-tar-4.png')
 
           h3.text-center BobCAD-CAM V29 5 Ejes 
-          p.text-center Es un sistema para la programación de centros de mecanizado de 5 Ejes. BobCAD permite la importación de archivos generados en <em></em>SolidWorks, AutoCAD, Inventor, Rhino, Catia, NX y muchos más, para ser mecanizado dentro de <em></em>BobCAD-CAM., Crespo, (2016).  
-          p.text-center <b>Texto tomado de</b>: 3DCadPortal (2022).
+          p.text-center Es un sistema para la programación de centros de mecanizado de 5 Ejes. BobCAD permite la importación de archivos generados en SolidWorks, AutoCAD, Inventor, Rhino, Catia, NX y muchos más, para ser mecanizado dentro de BobCAD-CAM. 
+            br
+            |#[b Texto tomado de:] 3DCadPortal (2022).
 
     .separador.p3.mb-5
 
@@ -201,7 +203,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             p El <em>software</em> de simulación muestra virtualmente el comportamiento de la máquina de control numérico CNC, interpretando el programa creado con <b>código G</b>, con el fin de detectar y corregir los posibles problemas que se presentarían una vez se inicie el mecanizado real.
-            p Entre los <em>softwarsoftwares</em> para simulación que hay en el mercado se encuentran:
+            p Entre los <em>softwares</em> para simulación que hay en el mercado se encuentran:
             .col-11
               ul.lista-ul.ms-4
                 li 
@@ -222,7 +224,7 @@
                 li 
                   <i class="fa fa-check text-success" aria-hidden="true"></i>
                   p <b>CNC Simulator Pro</b> es un <em>software</em> muy completo para modelado CAD 2D y 3D, simulación de gran variedad de máquinas herramientas CNC, incluyendo impresoras 3D.
-            p Otras opciones de <em>softwarsoftwares</em> con los que se puede crear y trabajar los programas en código G son NC Viewer, PlanetCNC, Universal Gcode sender (UGS), ChiliPeppr, OpenCNCPilot, Mach3 y Easel, entre otros.
+            p Otras opciones de #[em software] con los que se pueden crear y trabajar los programas en código G, son NC Viewer, PlanetCNC, Universal Gcode sender (UGS), ChiliPeppr, OpenCNCPilot, Mach3 y Easel, entre otros.
 
             p Generalmente los archivos ya importados en el <em>software</em> CAM permiten, una vez abiertos, hacer la simulación de su mecanizado.
             
@@ -246,7 +248,7 @@
           figure(data-aos="fade-right")
             img.img-center(src='@/assets/curso/temas/tema1/img-5.png')
 
-    p.mb-5 Para entender el concepto de CNC se retoma la definición de Autycom (2020)
+    p.mb-5 Para entender el concepto de CNC, se retoma la definición de Autycom (2020):
 
     .bloque-texto-f.color-nota.pt-4.px-5.mb-5
       .bloque-texto-f__comillas
@@ -288,9 +290,10 @@
            
     h4.mb-5 Normativa para el mecanizado
 
-    p.mb-5 Las normas para mecanizar materiales se enfocan principalmente en la seguridad del operador de la máquina herramienta y pueden cambiar de acuerdo con el proceso de mecanizado que se vaya a ejecutar, con el material que se vaya a mecanizar, si el mecanizado es formativo o productivo, etc.
-
-    p.mb-5 A continuación, un resumen de las normas más importantes para tener en cuenta si se va a mecanizar con máquinas de control numérico NC.
+    p.mb-5 Las normas para mecanizar materiales se enfocan principalmente en la seguridad del operador de la máquina herramienta y pueden cambiar de acuerdo con el proceso de mecanizado que se vaya a ejecutar, con el material que se vaya a mecanizar, si el mecanizado es formativo o productivo, etc. 
+      br
+      br
+      |A continuación, un resumen de las normas más importantes para tener en cuenta si se va a mecanizar con máquinas de control numérico NC:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -299,7 +302,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-1.png", alt="alt")
           .crd_hover_txt--body.color-des
-            h4.mb-3 Elementos de protección personal
+            h4.mb-3.text-center Elementos de protección personal
             p.mb-0 Utilizar los indicados para cada área; generalmente son: gafas de protección, calzado de seguridad con puntera, ropa de trabajo según las indicaciones, así como los protectores para oídos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -308,7 +311,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-2.png", alt="alt")
           .crd_hover_txt--body.color-des
-            h4.mb-3 Recomendaciones del fabricante
+            h4.mb-3.text-center Recomendaciones del fabricante
             p.mb-0Las Las máquinas se deben utilizar de acuerdo con las recomendaciones del fabricante o proveedor.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -317,7 +320,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-3.png", alt="alt")
           .crd_hover_txt--body.color-des
-            h4.mb-3 Iluminación
+            h4.mb-3.text-center Iluminación
             p.mb-0 El espacio de trabajo debe tener la mejor iluminación posible. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -326,7 +329,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-4.png", alt="alt")
           .crd_hover_txt--body.color-des
-            h4.mb-3 Orden y aseo
+            h4.mb-3.text-center Orden y aseo
             p.mb-0 Requisitos importantes, tanto para trabajar cómodamente como para evitar accidentes laborales.  
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -335,43 +338,9 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-5.png", alt="alt")
           .crd_hover_txt--body.color-des
-            h4.mb-3 Mantenimiento de máquinas
+            h4.mb-3.text-center Mantenimiento de máquinas
             p.mb-0 Es imprescindible revisar los niveles de aceite y lubricación; asimismo, estar atento a partes defectuosa, entre otros.  
 
-    .tarjeta.color-fondot.p-md-5
-      .row.justify-content-around
-
-        .col-5.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src='@/assets/curso/temas/tema1/img-6.png')
-
-        .col-lg-7
-          .titulo-segundo.color-acento-contenido.mb-5
-            h3.mt-5 Normativa para el mecanizado
-          p.mb-5 Para ampliar la información de la normativa para el mecanizado, se sugiere revisar el material complementario  disponible en este recurso educativo.
-
-          .row.justify-content-between
-            .col-6.tarjeta.opacidad.p-3.mb-5.tarjeta-espacio
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-6.col-lg-2
-                  img(src="@/assets/curso/temas/tema1/img-9.png")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.text-small Resolucion-1016-de-1989 
-                      a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Resolucion-1016-de-1989.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
-            .col-6.tarjeta.opacidad.p-3.mb-5.tarjeta-espacio
-              .row.justify-content-around.align-items-center
-                .col-3.col-sm-6.col-lg-2
-                  img(src="@/assets/curso/temas/tema1/img-8.png")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.text-small Ley-1562-de-2012 
-                      a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/Ley-1562-de-2012.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download
 
 </template>
 
