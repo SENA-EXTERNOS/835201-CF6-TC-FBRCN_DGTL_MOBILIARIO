@@ -38,7 +38,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Conceptos, definición y tipos de software',
+            titulo: 'Conceptos, definición y tipos de <em>software</em>',
             hash: 't_1_1',
           },
           {

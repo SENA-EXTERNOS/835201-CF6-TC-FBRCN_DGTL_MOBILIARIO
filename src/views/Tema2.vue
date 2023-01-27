@@ -35,7 +35,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-2.png')
 
-      .tarjeta.colormodal(x="17%" y="25%" numero="1")
+      .tarjeta.colormodal(x="17%" y="25%" numero="1" tooltip='Torno')
         .row.justify-content-center.mb-5.p-5
           .col-8
             p.mt-4.color-texto Si el objeto a mecanizar es o tiene partes de forma cilíndrica o con superficies generadas por revolución del material.
@@ -52,7 +52,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-1.png')
 
-      .tarjeta.colormodal(x="48%" y="30%" numero="2")
+      .tarjeta.colormodal(x="48%" y="30%" numero="2" tooltip='Fresadora')
         .row.justify-content-center.mb-5.p-5
           .col-8
             p.mt-4.color-texto Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
@@ -68,7 +68,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-2.png')
 
-      .tarjeta.colormodal(x="80%" y="25%" numero="3")
+      .tarjeta.colormodal(x="80%" y="25%" numero="3" tooltip='Cortadora')
         .row.justify-content-center.mb-5.p-5
           .col-8
             p.mt-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en software de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
