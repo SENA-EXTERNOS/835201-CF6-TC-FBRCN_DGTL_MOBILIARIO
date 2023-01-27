@@ -127,7 +127,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.color-enalce #[b Para ver el video: https://www.youtube.com/watch?v=SpWmEeIjsi4]
+                p.color-enalce <b>Enlace web.Video de YouTube</b>
             
       .tarjeta.colormodal(x="81%" y="10%" numero="5" tooltip='Eureka G-Code')
         .row.justify-content-center.mb-5.p-5
