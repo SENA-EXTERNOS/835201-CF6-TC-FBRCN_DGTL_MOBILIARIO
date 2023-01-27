@@ -15,7 +15,7 @@
             figure
               img.img-alto(src="@/assets/curso/temas/tema3/img-1.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Proceso de programación
+            h4.mb-3.text-center Proceso de programación
             p.mb-0 En la programación con la ayuda de un <em>software</em> de fabricación asistida por computador CAM, se introducen todas las instrucciones en un lenguaje que reconozcan las máquinas CNC, para que ejecuten las operaciones, en el orden indicado, con las herramientas adecuadas y con los parámetros definidos. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -24,7 +24,7 @@
             figure
               img.img-alto(src="@/assets/curso/temas/tema3/img-2.png")
           .crd_hover_txt--body
-            h4.mb-3 Proceso de simulación
+            h4.mb-3.text-center Proceso de simulación
             p.mb-0 Representación gráfica en un monitor de todo el proceso de mecanizado que se ha programado en CAM, desde el montaje del material, mostrando las herramientas seleccionadas y sus cambios, las trayectorias que trazarán, su profundidad y la forma que tomará el material a medida que el mecanizado avanza; también podemos apreciar los momentos en que las funciones misceláneas sean ejecutadas, por ejemplo, cuándo se prende o se apaga el refrigerante. 
 
     .separador.p3.mb-5
