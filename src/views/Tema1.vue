@@ -13,7 +13,6 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0  El <em>software</em> de fabricación asistida por computador (CAM) es el que permite que los proyectos que se han modelado con diseño asistido por computador (CAD) sean transferidos a las máquinas herramientas controladas por computador (CNC) en un lenguaje que estas pueden leer y ejecutar; el cual está estructurado en programas que, mediante códigos o palabras, contienen todas las instrucciones con los parámetros para que la máquina, a través de sus diferentes herramientas, ejecute las operaciones necesarias para transformar un material en bruto  en la pieza final diseñada.  
-         
     .row.justify-content-center.align-items-center
       .col-8
         .cajon.color-primario.p-4.mb-4.color-gris
@@ -32,13 +31,14 @@
         p Para comprender el proceso de fabricación de un producto mediante <em>software</em> CAM, es necesario tener claros algunos conceptos y definiciones de términos que se mencionan en el desarrollo del componente.
           br
           br
-          | #[em A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:]
+          |  A continuación, se explican los siguientes conceptos: CAD, CAE, CAM y CNC:
 
     SlyderA.tarjeta.opacidad1.my-4.p-3.mb-5(tipo="b")
       .row.justify-content-center
         .col-lg-6.mt-md-4
           h2.ms-5 CAD 
-          p.ms-5 #[b #[em Computer Aided Design] (CAD)], o Diseño Asistido por Computador. Con este #[em software], se pueden crear modelos sólidos a partir de un plano o figuras planas, para luego ser importados en el CAM y planear su fabricación.
+          p.ms-5 #[b #[em Computer Aided Design (CAD)]], o Diseño Asistido por Computador. Con este #[em software], se pueden crear modelos sólidos a partir de un plano o figuras planas, para luego ser importados en el CAM y planear su fabricación.
+
         .col-lg-6
           figure
             img.img-250(src='@/assets/curso/temas/tema1/slider-img-1.png')
@@ -287,7 +287,6 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema1/img-tar-7.png')
-           
     h4.mb-5 Normativa para el mecanizado
 
     p.mb-5 Las normas para mecanizar materiales se enfocan principalmente en la seguridad del operador de la máquina herramienta y pueden cambiar de acuerdo con el proceso de mecanizado que se vaya a ejecutar, con el material que se vaya a mecanizar, si el mecanizado es formativo o productivo, etc. 
@@ -339,7 +338,7 @@
               img(src="@/assets/curso/temas/tema1/img-animada-5.png", alt="alt")
           .crd_hover_txt--body.color-des
             h4.mb-3.text-center Mantenimiento de máquinas
-            p.mb-0 Es imprescindible revisar los niveles de aceite y lubricación; asimismo, estar atento a partes defectuosa, entre otros.  
+            p.mb-0 Es imprescindible revisar los niveles de aceite y lubricación; asimismo, estar atento a partes defectuosas, entre otros.
 
 
 </template>

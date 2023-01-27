@@ -63,7 +63,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img-3.png')
 
-      .tarjeta.colormodal(x="19%" y="10%" numero="1")
+      .tarjeta.colormodal(x="19%" y="10%" numero="1" tooltip='CNCSimulator Pro')
         .row.justify-content-center.mb-5.p-5
           .col-6
             p.mt-5.color-texto <b>CNCSimulator Pro:</b> 
@@ -74,12 +74,12 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.color-texto.h4.mt-5 Enlace web.Video de YouTube
+                p.color-enlace #[b Enlace web.Video de YouTube]
             
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img-4.png')
-      .tarjeta.colormodal(x="32%" y="46%" numero="2")
+      .tarjeta.colormodal(x="32%" y="46%" numero="2" tooltip='G-Wizard Editor')
         .row.justify-content-center.mb-5.p-5
           .col-6
             figure
@@ -87,7 +87,7 @@
           .col-6
             p.color-texto.h4.mt-5 G-Wizard Editor: 
 
-            p.mt-4.color-texto es un simulador y una herramienta de edición de código G que se utiliza principalmente para comprobar, modificar o escribir código generado mediante CAM. La función denominada «programación conversacional» constituye una forma interactiva de escribir código G con imágenes descriptivas, algo así como rellenar los espacios en blanco. También cuenta con herramientas de comprobación de errores del código que describen los fallos en lugar de limitarse a señalarlos. (Carolo, 2022)
+            p.mt-4.color-texto Es un simulador y una herramienta de edición de código G que se utiliza principalmente para comprobar, modificar o escribir código generado mediante CAM. La función denominada «programación conversacional» constituye una forma interactiva de escribir código G con imágenes descriptivas, algo así como rellenar los espacios en blanco. También cuenta con herramientas de comprobación de errores del código que describen los fallos en lugar de limitarse a señalarlos. (Carolo, 2022)
 
             a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=fJhcoS5YTxQ&t=1s" target="_blank")
               .anexo__icono
@@ -96,7 +96,7 @@
                 p.color-enalce <b>Enlace web.Video de YouTube</b>
             
 
-      .tarjeta.colormodal(x="44%" y="10%" numero="3")
+      .tarjeta.colormodal(x="44%" y="10%" numero="3" tooltip='CAMotics')
         .row.justify-content-center.mb-5.p-5
           .col-6
             p.color-texto.h4.mt-5 CAMotics:
@@ -113,7 +113,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img-6.png')
 
-      .tarjeta.colormodal(x="68%" y="46%" numero="4")
+      .tarjeta.colormodal(x="68%" y="46%" numero="4" tooltip='NC Viewer')
         .row.justify-content-center.mb-5.p-5 
           .col-6
             figure
@@ -123,13 +123,13 @@
 
             p.mt-4.color-texto NC Viewer es el único simulador CNC de esta lista basado en navegador. Esencialmente, se trata de un simulador de trayectorias de herramientas con un entorno 3D interactivo y claro. Aunque no ofrece tantas funcionalidades como otras herramientas de simulación, es útil para verificar, visualizar y trazar código G de CNC  (Carolo, 2022).
 
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=6p8rTMARzrM" target="_blank")
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=SpWmEeIjsi4" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p.color-enalce <b>Pendiente video</b>
+                p.color-enalce #[b Para ver el video: https://www.youtube.com/watch?v=SpWmEeIjsi4]
             
-      .tarjeta.colormodal(x="81%" y="10%" numero="5")
+      .tarjeta.colormodal(x="81%" y="10%" numero="5" tooltip='Eureka G-Code')
         .row.justify-content-center.mb-5.p-5
           .col-6
             p.color-texto.h4.mt-5 Eureka G-Code: 

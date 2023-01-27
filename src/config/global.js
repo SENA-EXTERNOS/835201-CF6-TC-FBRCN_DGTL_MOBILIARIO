@@ -79,7 +79,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Selección de máquinas CSimulación del mecanizado CNC ',
+            titulo: 'Simulación del mecanizado CNC',
             hash: 't_3_2',
           },
         ],
@@ -129,7 +129,7 @@ export default {
     {
       tema: 'Fundamentos de CAM',
       referencia: `De máquinas y herramientas. (2015). <em>Materiales según la norma ISO.</em> `,
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link: `https://www.demaquinasyherramientas.com/mecanizado/materiales-segun-la-norma-iso`,
     },
     {
@@ -141,56 +141,56 @@ export default {
     {
       tema: 'Fundamentos de CAM',
       referencia: `Pérez Camps. (s.f.). <em>Qué es CAD/CAM.</em> `,
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link: `https://perezcamps.com/es/que-es-cam-cad/`,
     },
     {
       tema: 'Fundamentos de CAM',
       referencia: `Siemens. (2022). <em>Fabricación asistida por ordenador (CAM).</em> `,
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link: `https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139`,
     },
   ],
   glosario: [
     {
       termino: 'Buril',
-      significado: 'herramienta de corte con la que trabaja un torno',
+      significado: 'herramienta de corte con la que trabaja un torno.',
     },
     {
       termino: 'CAD',
-      significado: `del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador`,
+      significado: `del inglés <em>Computer Aided Design</em>, o diseño asistido por el computador.`,
     },
     {
       termino: 'CAM',
-      significado: `del inglés <em>Computer Aided Manufacture</em>, o fabricación asistida por computador`,
+      significado: `del inglés <em>Computer Aided Manufacture</em>, o fabricación asistida por computador.`,
     },
     {
       termino: 'CNC',
-      significado: `control numérico computarizado`,
+      significado: `control numérico computarizado.`,
     },
     {
       termino: 'Fresa',
-      significado: `herramienta de corte con la que trabaja una fresadora o un centro de mecanizado`,
+      significado: `herramienta de corte con la que trabaja una fresadora o un centro de mecanizado.`,
     },
     {
       termino: 'Husillo',
-      significado: `parte de la máquina herramienta que gira y sostiene accesorios para fijar herramientas o materiales`,
+      significado: `parte de la máquina herramienta que gira y sostiene accesorios para fijar herramientas o materiales.`,
     },
     {
       termino: 'Maquina NC',
-      significado: `se refiere a una máquina con control numérico`,
+      significado: `se refiere a una máquina con control numérico.`,
     },
     {
       termino: 'Moleteado',
-      significado: `operación en la que se graba por medio de la presión, un patrón sobre la superficie de un material`,
+      significado: `operación en la que se graba por medio de la presión, un patrón sobre la superficie de un material.`,
     },
     {
       termino: 'Plasma',
-      significado: `gas caliente que permite el flujo de energía eléctrica para hacer un corte a un metal`,
+      significado: `gas caliente que permite el flujo de energía eléctrica para hacer un corte a un metal.`,
     },
     {
       termino: 'PLM',
-      significado: `del inglés Product Life Cycle, o gestión del ciclo de vida del producto`,
+      significado: `del inglés Product Life Cycle, o gestión del ciclo de vida del producto.`,
     },
   ],
   referencias: [
@@ -220,7 +220,7 @@ export default {
     },
     {
       referencia:
-        'Crespo, M. (2016). <em>BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultaneos</em>',
+        'Crespo, M. (2016). <em>BobCAD-CAM-V29---MILL-5-PRO Mecanizado de 5 ejes simultáneos.</em> ',
       link:
         'https://www.interempresas.net/FeriaVirtual/Catalogos_y_documentos/199030/BobCAD-CAM-V29---MILL-5-PRO.-Mecanizado-de-5-Ejes-Simultaneos.pdf',
     },
@@ -234,7 +234,7 @@ export default {
     },
     {
       referencia:
-        'Inoxform.au. (2022). <em>Descubre lo diferentes tipos de máquinas CNC.</em>',
+        'Inoxform.au. (2022). <em>Descubre los diferentes tipos de máquinas CNC.</em>',
       link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
     },
     {

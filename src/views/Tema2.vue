@@ -113,7 +113,7 @@
 
     p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
 
-    p.mb-5 Observe a continuación algunas de esas ecuaciones matemáticas.  
+    p.mb-5 Observe a continuación, algunas de esas ecuaciones matemáticas:
 
     .tarjeta.tarjeta--gris.p-4.color-fondolinea
       PasosB.color-acento-contenido
