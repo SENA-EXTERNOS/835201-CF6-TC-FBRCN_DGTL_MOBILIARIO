@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Programación CNC en CAM
         p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
