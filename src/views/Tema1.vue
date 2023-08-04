@@ -85,7 +85,7 @@
 
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               figure.mb-2
@@ -96,7 +96,7 @@
 
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               figure.mb-2
@@ -106,7 +106,7 @@
           p.text-center.mb-5 Es un programa CAM ideal para manufactura de productos, prototipos, moldes, herramentales, y maquinado en general. Adecuado para usuarios con exigencias de manufactura complejas en productos irregulares dentro de Rhinoceros.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-primario.text-white--hover.p-4
+        .tarjeta--boton.color-primario.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               figure
@@ -116,7 +116,7 @@
           p.text-center Es un #[em software] para manufactura CAM 3D, que está integrado sobre SolidWorks y Autodesk Inventor. Con operaciones de corte, fresado y torno para ser ejecutadas en centros de maquinado CNC, usando la tecnología #[em Machining]; una de sus ventajas es que el sistema explota toda la inteligencia de manejo de sólidos paramétricos 3D.
 
       .col-sm-6.col-lg-3
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.h-100.p-4
           .row.justify-content-center.mb-3
             .col-10
               figure
@@ -294,9 +294,9 @@
       br
       |A continuación, un resumen de las normas más importantes para tener en cuenta si se va a mecanizar con máquinas de control numérico NC:
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").mb-4
+    .row.justify-content-center
+      .col-lg-5.col-md-9.col-11.mb-4
+        .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajusteuno
             figure
               img(src="@/assets/curso/temas/tema1/img-animada-1.png", alt="alt")
@@ -304,7 +304,7 @@
             h4.mb-3.text-center Elementos de protección personal
             p.mb-0 Utilizar los indicados para cada área; generalmente son: gafas de protección, calzado de seguridad con puntera, ropa de trabajo según las indicaciones, así como los protectores para oídos.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajusteuno
             figure
@@ -313,7 +313,7 @@
             h4.mb-3.text-center Recomendaciones del fabricante
             p.mb-0Las Las máquinas se deben utilizar de acuerdo con las recomendaciones del fabricante o proveedor.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajusteuno
             figure
@@ -322,7 +322,7 @@
             h4.mb-3.text-center Iluminación
             p.mb-0 El espacio de trabajo debe tener la mejor iluminación posible. 
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajusteuno
             figure
@@ -331,7 +331,7 @@
             h4.mb-3.text-center Orden y aseo
             p.mb-0 Requisitos importantes, tanto para trabajar cómodamente como para evitar accidentes laborales.  
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-lg-5.col-md-9.col-11.mb-4
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img.color-ajusteuno
             figure

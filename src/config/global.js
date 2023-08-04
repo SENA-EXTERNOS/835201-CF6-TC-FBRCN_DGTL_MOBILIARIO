@@ -230,7 +230,7 @@ export default {
     },
     {
       referencia: 'Hernández, J. (2020). <em>Curso básico de CNC.</em>',
-      link: 'https://player.slideplayer.es/109/17991266/slides/slide_8.jpg',
+      link: 'https://player.slideplayer.es/109/17991266/',
     },
     {
       referencia:
@@ -238,8 +238,7 @@ export default {
       link: 'https://inoxform.eu/es/tipos-de-maquinas-cnc/',
     },
     {
-      referencia:
-        'Plm.automation.siemens.com/ (2022). <em>Que es el CAM?</em> ',
+      referencia: 'Pérez Camps. (s.f.). <em>Qué es CAD/CAM.</em> ',
       link:
         'https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139',
     },
