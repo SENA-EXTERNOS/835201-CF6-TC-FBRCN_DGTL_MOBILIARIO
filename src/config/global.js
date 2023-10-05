@@ -240,6 +240,11 @@ export default {
     {
       referencia: 'Pérez Camps. (s.f.). <em>Qué es CAD/CAM.</em> ',
       link:
+        'https://perezcamps.com/es/que-es-cam-cad/',
+    },
+    {
+      referencia: 'Siemens. (2022). Fabricación asistida por ordenador (CAM).',
+      link:
         'https://www.plm.automation.siemens.com/global/es/our-story/glossary/computer-aided-manufacturing-cam/13139',
     },
   ],
