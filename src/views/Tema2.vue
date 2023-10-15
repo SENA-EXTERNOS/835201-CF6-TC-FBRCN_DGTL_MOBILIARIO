@@ -25,7 +25,7 @@
 
     h3 Selección de máquinas CNC
 
-    p.mb-5 Para seleccionar adecuadamente las máquinas herramientas con las que se fabricará un producto, es necesario partir del diseño formal, es decir, revisar el modelo para determinar qué partes de este se obtendrán con la fresadora, cuáles con el torno y en qué orden se trabajará. 
+    p.mb-5 Para seleccionar adecuadamente las máquinas herramientas con las que se fabricará un producto, es necesario partir del diseño formal, es decir, revisar el modelo para determinar qué partes de este se obtendrán con la fresadora, cuáles con el torno y en qué orden se trabajará.
 
     p.mb-5.fw-bold Analice algunos aspectos para tener en cuenta a la hora de seleccionar el tipo de máquinas:
 
@@ -35,57 +35,52 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-2.png')
 
-      .tarjeta.colormodal(x="17%" y="25%" numero="1" tooltip='Torno')
+      .tarjeta.colormodal(x="17%" y="25%" numero="1" tooltip='Fresa')
         .row.justify-content-center.mb-5.p-5
           .col-8
-            p.mt-4.color-texto Si el objeto a mecanizar es o tiene partes de forma cilíndrica o con superficies generadas por revolución del material.
-              br
-              br
-              |#[b Torno:]
-              br
-              |Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar. 
-              br
-              br
-              |El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
+            p.mb-4.color-texto Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
 
-          .col-4
-            figure
-              img(src='@/assets/curso/temas/tema2/img-modal-1.png')
+            p.mb-4 #[b.color-texto Fresa:]
 
-      .tarjeta.colormodal(x="48%" y="30%" numero="2" tooltip='Fresadora')
-        .row.justify-content-center.mb-5.p-5
-          .col-8
-            p.mt-4.color-texto Si la pieza tiene formas que se logran con ranuras o planeados, entonces se selecciona una fresadora o un centro de mecanizado.
-            br
-            br
-            |#[b.color-texto Fresadora:]
-            br
-            br
-            |El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
+            p.color-texto El control numérico de una fresadora moderna ofrece una gran posibilidad de configurar las funciones de la maquinaria. Es así como podemos proceder al fresado frontal, de resalte o incluso el taladrado. Es ideal para aplicarlo a diversos proyectos de fabricación en la industria automotriz y obtener los mejores resultados. (Inoxform, 2020).
 
 
           .col-4
             figure
               img(src='@/assets/curso/temas/tema2/img-modal-2.png')
 
-      .tarjeta.colormodal(x="80%" y="25%" numero="3" tooltip='Cortadora')
+      .tarjeta.colormodal(x="48%" y="30%" numero="2" tooltip='Torno')
         .row.justify-content-center.mb-5.p-5
           .col-8
-            p.mt-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en software de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
-              br
-              br
-              |#[b Cortadora:]
-              br
-              br
-              |Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
+            p.mb-4.color-texto Si el objeto a mecanizar es o tiene partes de forma cilíndrica o con superficies generadas por revolución del material.
+
+            p.mb-4.color-texto #[b Torno:]
+
+            p.color-texto Los tornos manejados por control numérico por computadora están diseñados para realizar cortes y perforaciones precisas de forma instantánea. También se caracterizan por su alta velocidad, abarcando zonas donde en cortes manuales es imposible de alcanzar.
+
+            p.color-texto El torno CNC cuenta con lector de código G y maneja su propio lenguaje de programación. También suele estar equipado con doce portaherramientas y bombas de refrigeración para reducir su desgaste por el uso. (Inoxform, 2020)
+
 
           .col-4
             figure
-              img(src='@/assets/curso/temas/tema2/img-modal-3.png')          
+              img(src='@/assets/curso/temas/tema2/img-modal-1.png')
+
+      .tarjeta.colormodal(x="80%" y="25%" numero="3" tooltip='Cortadora')
+        .row.justify-content-center.mb-5.p-5
+          .col-8
+            p.mb-4.color-texto Si lo que se necesita es cortar una lámina de un espesor determinado y con formas definidas en un plano creado en software de diseño asistido por computador CAD, se utiliza una cortadora por plasma.
+
+            p.color-texto #[b Cortadora:]
+
+            p.color-texto Las cortadoras de plasma CNC cuentan con características similares a las de un enrutador. Sin embargo, difieren de ellas debido a que no arrastra el material, sino que actúa por encima de él mediante el desplazamiento del plasma. Para ello, se procede al aumento de la temperatura para fundir el metal y generar un acabado de calidad. Este tipo de máquinas CNC no requieren de una gran dimensión o configuración, además de que se puede trabajar con metales densos sin ningún inconveniente. (Inoxform , 2020).
+
+          .col-4
+            figure
+              img(src='@/assets/curso/temas/tema2/img-modal-3.png')
 
     h3 Configuración de parámetros para mecanizado CNC
 
-    p.mb-5 Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta. 
+    p.mb-5 Los parámetros de corte permiten determinar las condiciones con las que funcionará la máquina para desarrollar el mecanizado, como por ejemplo la velocidad en rpm con la que girará el husillo, la velocidad con la que se moverá una mesa o una herramienta y la profundidad de cada pasada de la herramienta.
 
     p.mb-5 Los principales parámetros para configurar son:
 
@@ -98,7 +93,7 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Velocidad de giro (n)")
               .col-12
-                p.mb-0 Es la velocidad a la que girará el husillo de la máquina, en el torno la velocidad de giro del plato de sujeción del material de trabajo, en la fresadora la velocidad de giro de la herramienta de corte (fresa). Esta dependerá de las propiedades mecánicas del material de trabajo y de la herramienta, del diámetro tanto del material de trabajo en el torno como de la fresa en la fresadora o centro de mecanizado. 
+                p.mb-0 Es la velocidad a la que girará el husillo de la máquina, en el torno la velocidad de giro del plato de sujeción del material de trabajo, en la fresadora la velocidad de giro de la herramienta de corte (fresa). Esta dependerá de las propiedades mecánicas del material de trabajo y de la herramienta, del diámetro tanto del material de trabajo en el torno como de la fresa en la fresadora o centro de mecanizado.
 
             .row(titulo="Velocidad de avance (f)")
               .col-12
@@ -111,7 +106,7 @@
 
     h3 Matemáticas aplicadas al mecanizado
 
-    p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades. 
+    p.mb-5 Para la obtención de los parámetros del mecanizado se requiere aplicar algunos conceptos matemáticos básicos como despejar ecuaciones de primer grado y la conversión de unidades.
 
     p.mb-5 Observe a continuación, algunas de esas ecuaciones matemáticas:
 
@@ -120,7 +115,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             h5.alineacion Velocidad de giro
-            p.alineacion Para obtener la velocidad de giro (n): 
+            p.alineacion Para obtener la velocidad de giro (n):
             figure
               img.img-linea(src='@/assets/curso/temas/tema2/img-linea-2.png')
             figure
@@ -130,11 +125,11 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-linea-1.png') 
+              img(src='@/assets/curso/temas/tema2/img-linea-1.png')
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             h5.alineacion Velocidad del avance
-            p.alineacion La velocidad del avance (f) se obtiene:  
+            p.alineacion La velocidad del avance (f) se obtiene:
             figure
               img.img-linea(src='@/assets/curso/temas/tema2/img-linea-6.png')
             figure
@@ -147,7 +142,7 @@
         .row(titulo="")
           .col-md-6.mb-4.mb-md-0
             h5.alineacion Velocidad del avance
-            p.alineacion La profundidad del corte o de la pasada depende principalmente del material, del acabado o del ajuste que se quiera dar a la pieza y de la potencia de la máquina.  
+            p.alineacion La profundidad del corte o de la pasada depende principalmente del material, del acabado o del ajuste que se quiera dar a la pieza y de la potencia de la máquina.
             figure
               img.img-linea(src='@/assets/curso/temas/tema2/img-linea-10.png')
             figure
